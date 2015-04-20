@@ -1,5 +1,4 @@
-$primaryColor: #FF0000;
-$photoSize: 200px;
+$primaryColor: #000000;
 
 body {
     font-family: Verdana;
@@ -12,21 +11,21 @@ body {
 #team-members {
     clear: both;
 
-  &.member {
+  .member {
     float: left;
-    /*border: 1px solid gray;*/
+    border: 10px solid gray;
     margin: 10px;
     padding: 6px;
   }
   
-  &.member img {
-    width: $photoSize;
-    height: $photoSize;
-   }
+  .member img {
+    border: 10px solid gray;
+    width: 200px;
+    height: auto;
+  }
 
-  &.member div.name {
+  .member div.name {
     text-align: center; 
-
   }
 }
 
