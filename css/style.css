@@ -27,7 +27,9 @@ body {
     filter: gray;
     /* IE6-9 */
     -webkit-filter: grayscale(1);
-    /* Google Chrome & Safari 6+ */ }
+    /* Google Chrome & Safari 6+ */
+    width: 500px;
+    height: auto; }
   #team-members .member div.name {
     text-align: center; }
 
