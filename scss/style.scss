@@ -22,6 +22,18 @@ body {
     border: 10px solid gray;
     width: 200px;
     height: auto;
+    border-radius:20%;
+    margin: 1em;
+    box-shadow: 10px 10px 15px grey;
+    -webkit-transition: width 2s, height 2s;
+    -moz-transition: width 2s, height 2s;
+    transition: width 2s, height 2s;
+  }
+
+  .member img:hover{  
+     filter: url(filters.svg#grayscale); /* Firefox 3.5+ */
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(1); /* Google Chrome & Safari 6+ */
   }
 
   .member div.name {
